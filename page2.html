@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Blog - Priyanka Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/page2.html" aria-current="page">Blog</a>
+    </nav>
+    
+    <main>
+      <section class="container">
+        <h1>My Blog</h1>
+        <p class="blog-intro">Welcome to my blog where I share my thoughts on web development, design trends, and technology.</p>
+        
+        <div class="blog-posts">
+          <article class="blog-post">
+            <h2>The Future of Web Development in 2025</h2>
+            <div class="post-meta">
+              <span><i class="far fa-calendar"></i> April 15, 2025</span>
+              <span><i class="far fa-folder"></i> Web Development</span>
+            </div>
+            <img src="https://via.placeholder.com/800x400" alt="Future of Web Development" />
+            <p>The web development landscape continues to evolve at a rapid pace. In this article, I explore the emerging trends that are shaping the future of web development in 2025 and beyond.</p>
+            <p>From AI-driven development tools to the rise of WebAssembly, the way we build websites and applications is undergoing a significant transformation. Let's dive into what these changes mean for developers and businesses alike.</p>
+            <a href="#" class="btn">Read More</a>
+          </article>
+          
+          <article class="blog-post">
+            <h2>Mastering CSS Grid Layout</h2>
+            <div class="post-meta">
+              <span><i class="far fa-calendar"></i> March 28, 2025</span>
+              <span><i class="far fa-folder"></i> CSS</span>
+            </div>
+            <img src="https://via.placeholder.com/800x400" alt="CSS Grid Layout" />
+            <p>CSS Grid has revolutionized how we approach web layouts. In this comprehensive guide, I share advanced techniques and best practices for mastering CSS Grid.</p>
+            <p>Learn how to create complex, responsive layouts with minimal code, and discover how to combine Grid with Flexbox for ultimate layout control.</p>
+            <a href="#" class="btn">Read More</a>
+          </article>
+          
+          <article class="blog-post">
+            <h2>Optimizing Website Performance</h2>
+            <div class="post-meta">
+              <span><i class="far fa-calendar"></i> February 10, 2025</span>
+              <span><i class="far fa-folder"></i> Performance</span>
+            </div>
+            <img src="https://via.placeholder.com/800x400" alt="Website Performance" />
+            <p>Website speed is crucial for user experience and SEO. In this article, I share proven strategies to optimize your website's performance and achieve lightning-fast load times.</p>
+            <p>From image optimization to code splitting, these techniques will help you create websites that not only look great but also perform exceptionally well.</p>
+            <a href="#" class="btn">Read More</a>
+          </article>
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Priyanka. All Rights Reserved.</p>
+        <div class="footer-links">
+          <a href="/">Home</a>
+          <a href="/page2.html">Blog</a>
+        </div>
+      </div>
+    </footer>
+    
+    <style>
+      /* Additional styles for the blog page */
+      .blog-intro {
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+        text-align: center;
+      }
+      
+      .blog-posts {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+      }
+      
+      .blog-post {
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        padding: 2rem;
+      }
+      
+      .blog-post h2 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+      }
+      
+      .post-meta {
+        display: flex;
+        gap: 1.5rem;
+        margin-bottom: 1.5rem;
+        color: #666;
+      }
+      
+      .post-meta span {
+        display: flex;
+        align-items: center;
+      }
+      
+      .post-meta i {
+        margin-right: 0.5rem;
+      }
+      
+      .blog-post img {
+        width: 100%;
+        border-radius: 4px;
+        margin-bottom: 1.5rem;
+      }
+      
+      .blog-post p {
+        margin-bottom: 1rem;
+        line-height: 1.7;
+      }
+      
+      .blog-post .btn {
+        margin-top: 1rem;
+      }
+      
+      @media (max-width: 768px) {
+        .blog-post {
+          padding: 1.5rem;
+        }
+        
+        .blog-post h2 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </body>
+</html>
